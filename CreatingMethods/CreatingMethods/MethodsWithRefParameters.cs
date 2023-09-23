@@ -2,12 +2,12 @@
 {
     public static class MethodsWithRefParameters
     {
-        //public static bool ReturnParameterValueAndSetParameterToDefaultValue(ref bool boolValue)
-        //{
-        //    bool value = boolValue;
-        //    boolValue = default(bool);
-        //    return value;
-        //}
+        public static bool ReturnParameterValueAndSetParameterToDefaultValue(ref bool boolValue)
+        {
+            bool value = boolValue;
+            boolValue = default(bool);
+            return value;
+        }
 
         // TODO #17. Add a static method here with name "ReturnParameterValueAndSetParameterToDefaultValue" that gets "charValue" parameter ("char" type) with ref keyword. The method should return value of "charValue" parameter and set the "charValue" parameter to default value (use "default" operator).
 
